@@ -1,0 +1,5 @@
+stage.x
+Dolphin.x
+CharaFin.x
+Bubble.x
+BubbleRing.x

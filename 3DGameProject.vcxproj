@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{907887E4-2D4E-4DF1-8F83-459CB4B0BA2E}</ProjectGuid>
+    <RootNamespace>My3DGameProject</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\プロパティシート\D3DX.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\..\プロパティシート\D3DX.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.51106.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ForcedIncludeFiles>stdafx.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>C:\local\boost_1_55_0</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3dx9d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>C:\local\boost_1_55_0\lib32-msvc-11.0;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>C:\local\boost_1_55_0</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat />
+      <ForcedIncludeFiles>stdafx.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalLibraryDirectories>C:\local\boost_1_55_0\lib32-msvc-11.0;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Data">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+    <Reference Include="System.Xml">
+      <CopyLocalSatelliteAssemblies>true</CopyLocalSatelliteAssemblies>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\StrongDolphin.cpp" />
+    <ClCompile Include="src\EnemyBase.cpp" />
+    <ClCompile Include="src\NormalEnemy.cpp" />
+    <ClCompile Include="src\EnemyManager.cpp" />
+    <ClCompile Include="src\ShotEnemy.cpp" />
+    <ClCompile Include="src\RushEnemy.cpp" />
+    <ClCompile Include="src\BubbleBreaker.cpp" />
+    <ClCompile Include="src\ShotBase.cpp" />
+    <ClCompile Include="src\NormalShot.cpp" />
+    <ClCompile Include="src\ShotManager.cpp" />
+    <ClCompile Include="src\PowerShot.cpp" />
+    <ClCompile Include="src\BubbleRing.cpp" />
+    <ClCompile Include="src\BigShot.cpp" />
+    <ClCompile Include="src\Plankton.cpp" />
+    <ClCompile Include="src\PlanktonManager.cpp" />
+    <ClCompile Include="src\StoneManager.cpp" />
+    <ClCompile Include="src\FishManager.cpp" />
+    <ClCompile Include="src\ObjectFish.cpp" />
+    <ClCompile Include="src\DamageObjectBase.cpp" />
+    <ClCompile Include="src\DamageFish.cpp" />
+    <ClCompile Include="src\SunLine.cpp" />
+    <ClCompile Include="src\SunLineManager.cpp" />
+    <ClCompile Include="src\NoneObjectManager.cpp" />
+    <ClCompile Include="src\DOFText.cpp" />
+    <ClCompile Include="src\TestBump.cpp" />
+    <ClCompile Include="src\TestCaustic.cpp" />
+    <ClCompile Include="src\SequenceManager.cpp" />
+    <ClCompile Include="src\Title.cpp" />
+    <ClCompile Include="src\GameOver.cpp" />
+    <ClCompile Include="src\Clear.cpp" />
+    <ClCompile Include="src\StageSelect.cpp" />
+    <ClCompile Include="src\GameMain.cpp" />
+    <ClCompile Include="src\BubbleManager.cpp" />
+    <ClCompile Include="src\WaterSpray.cpp" />
+    <ClCompile Include="src\Bubble.cpp" />
+    <ClCompile Include="src\UI.cpp" />
+    <ClCompile Include="src\BossBase.cpp" />
+    <ClCompile Include="src\HardBorder.cpp" />
+    <ClCompile Include="src\Screw.cpp" />
+    <ClCompile Include="src\FinTail.cpp" />
+    <ClCompile Include="src\LimitWalls.cpp" />
+    <ClCompile Include="src\Ripple.cpp" />
+    <ClCompile Include="src\RippleManager.cpp" />
+    <ClCompile Include="src\SurfaceSea.cpp" />
+    <ClCompile Include="src\SandSpray.cpp" />
+    <ClCompile Include="src\WaveMapManager.cpp" />
+    <ClCompile Include="src\DirectGraphics.cpp" />
+    <ClCompile Include="src\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="src\Input.cpp" />
+    <ClCompile Include="src\Vector.cpp" />
+    <ClCompile Include="src\Matrix.cpp" />
+    <ClCompile Include="src\Textures.cpp" />
+    <ClCompile Include="src\Camera.cpp" />
+    <ClCompile Include="src\Board.cpp" />
+    <ClCompile Include="src\Proj.cpp" />
+    <ClCompile Include="src\DebugFont.cpp" />
+    <ClCompile Include="src\Sprite.cpp" />
+    <ClCompile Include="src\XfileManager.cpp" />
+    <ClCompile Include="src\Xfile.cpp" />
+    <ClCompile Include="src\TexManager.cpp" />
+    <ClCompile Include="src\PointSpriteManager.cpp" />
+    <ClCompile Include="src\Effect.cpp" />
+    <ClCompile Include="src\ShaderManager.cpp" />
+    <ClCompile Include="src\Syncro.cpp" />
+    <ClCompile Include="src\MeshTexManager.cpp" />
+    <ClCompile Include="src\GraphicAnime.cpp" />
+    <ClCompile Include="src\SoundManager.cpp" />
+    <ClCompile Include="src\wavread.cpp" />
+    <ClCompile Include="src\FPS.cpp" />
+    <ClCompile Include="src\Utility.cpp" />
+    <ClCompile Include="src\Loading.cpp" />
+    <ClCompile Include="src\Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\StrongDolphin.h" />
+    <ClInclude Include="src\EnemyBase.h" />
+    <ClInclude Include="src\NormalEnemy.h" />
+    <ClInclude Include="src\EnemyManager.h" />
+    <ClInclude Include="src\ShotEnemy.h" />
+    <ClInclude Include="src\RushEnemy.h" />
+    <ClInclude Include="src\BubbleBreaker.h" />
+    <ClInclude Include="src\ShotBase.h" />
+    <ClInclude Include="src\NormalShot.h" />
+    <ClInclude Include="src\ShotManager.h" />
+    <ClInclude Include="src\PowerShot.h" />
+    <ClInclude Include="src\BubbleRing.h" />
+    <ClInclude Include="src\BigShot.h" />
+    <ClInclude Include="src\Plankton.h" />
+    <ClInclude Include="src\PlanktonManager.h" />
+    <ClInclude Include="src\StoneManager.h" />
+    <ClInclude Include="src\FishManager.h" />
+    <ClInclude Include="src\ObjectFish.h" />
+    <ClInclude Include="src\DamageObjectBase.h" />
+    <ClInclude Include="src\DamageFish.h" />
+    <ClInclude Include="src\SunLine.h" />
+    <ClInclude Include="src\SunLineManager.h" />
+    <ClInclude Include="src\NoneObjectManager.h" />
+    <ClInclude Include="src\DOFText.h" />
+    <ClInclude Include="src\TestBump.h" />
+    <ClInclude Include="src\TestCaustic.h" />
+    <ClInclude Include="src\SequenceManager.h" />
+    <ClInclude Include="src\Title.h" />
+    <ClInclude Include="src\GameOver.h" />
+    <ClInclude Include="src\Clear.h" />
+    <ClInclude Include="src\SequenceBase.h" />
+    <ClInclude Include="src\StageSelect.h" />
+    <ClInclude Include="src\GameMain.h" />
+    <ClInclude Include="src\BubbleManager.h" />
+    <ClInclude Include="src\WaterSpray.h" />
+    <ClInclude Include="src\Bubble.h" />
+    <ClInclude Include="src\UI.h" />
+    <ClInclude Include="src\BossBase.h" />
+    <ClInclude Include="src\HardBorder.h" />
+    <ClInclude Include="src\Screw.h" />
+    <ClInclude Include="src\FinTail.h" />
+    <ClInclude Include="src\LimitWalls.h" />
+    <ClInclude Include="src\Ripple.h" />
+    <ClInclude Include="src\RippleManager.h" />
+    <ClInclude Include="src\SurfaceSea.h" />
+    <ClInclude Include="src\SandSpray.h" />
+    <ClInclude Include="src\WaveMapManager.h" />
+    <ClInclude Include="src\DirectGraphics.h" />
+    <ClInclude Include="src\DoubleDispatch.h" />
+    <ClInclude Include="src\stdafx.h" />
+    <ClInclude Include="src\Input.h" />
+    <ClInclude Include="src\Vector.h" />
+    <ClInclude Include="src\Matrix.h" />
+    <ClInclude Include="src\Textures.h" />
+    <ClInclude Include="src\Camera.h" />
+    <ClInclude Include="src\Board.h" />
+    <ClInclude Include="src\Proj.h" />
+    <ClInclude Include="src\DebugFont.h" />
+    <ClInclude Include="src\Sprite.h" />
+    <ClInclude Include="src\Line.h" />
+    <ClInclude Include="src\XfileManager.h" />
+    <ClInclude Include="src\Xfile.h" />
+    <ClInclude Include="src\TexManager.h" />
+    <ClInclude Include="src\PointSpriteManager.h" />
+    <ClInclude Include="src\Effect.h" />
+    <ClInclude Include="src\ShaderManager.h" />
+    <ClInclude Include="src\Syncro.h" />
+    <ClInclude Include="src\MeshTexManager.h" />
+    <ClInclude Include="src\GraphicAnime.h" />
+    <ClInclude Include="src\SoundManager.h" />
+    <ClInclude Include="src\wavread.h" />
+    <ClInclude Include="src\FPS.h" />
+    <ClInclude Include="src\Utility.h" />
+    <ClInclude Include="src\Loading.h" />
+    <ClInclude Include="src\Main.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="src\Using.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="3DGameProject.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Texture\Rogo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram11.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

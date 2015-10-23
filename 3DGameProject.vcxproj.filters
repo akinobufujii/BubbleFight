@@ -1,0 +1,748 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Game">
+      <UniqueIdentifier>{75f8c75a-9c6e-4b2d-820e-dda22fff1d92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Chara">
+      <UniqueIdentifier>{08e16dfd-2cbc-4018-b542-2b91ef382a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Enemy">
+      <UniqueIdentifier>{9c538376-fd9c-4764-8cd0-32e290b0bc73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Enemy\Base">
+      <UniqueIdentifier>{408460d7-f34b-4dca-849f-7b1b2d1c18f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Enemy\Normal">
+      <UniqueIdentifier>{a9d977fe-f7f7-431c-84e7-ddf8e7ad2eea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Enemy\Manager">
+      <UniqueIdentifier>{ea7f1c44-46cf-43b7-95c4-2d765189467b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Enemy\ShotEnemy">
+      <UniqueIdentifier>{e6b1048a-bef5-42c9-a027-abf9de0fa6f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Enemy\Rush">
+      <UniqueIdentifier>{d5175ef5-016c-46a7-ab21-f6163eaa11da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Enemy\BubbleBreaker">
+      <UniqueIdentifier>{aef061df-79fa-4875-a427-f9c6d81fbc95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Shot">
+      <UniqueIdentifier>{5e38612e-70d7-4d3e-9fc4-a8cc4b86ede2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Shot\Base">
+      <UniqueIdentifier>{53b8d2a0-d031-459a-8dbc-320706a26975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Shot\Normal">
+      <UniqueIdentifier>{808eb868-6614-43dd-8102-6ecf7f507124}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Shot\Manager">
+      <UniqueIdentifier>{1205bbb1-e641-4392-a0f4-09fa82c590a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Shot\Power">
+      <UniqueIdentifier>{70a481c9-298e-4b2d-bb3b-1cfd05f10170}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Shot\BubbleRing">
+      <UniqueIdentifier>{c7f24e60-bb74-4ee2-996d-226dcd54492a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Shot\Big">
+      <UniqueIdentifier>{b113af2d-2610-4de4-b463-44e60918000b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Object">
+      <UniqueIdentifier>{2ce481e9-1744-4bc6-8b39-4ee493151077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Object\Plankton">
+      <UniqueIdentifier>{4f88800a-576e-4419-8fa4-31bb62548fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Object\Plankton\Manager">
+      <UniqueIdentifier>{c104687c-2349-4ba3-bb57-05646abc15bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Object\Stone">
+      <UniqueIdentifier>{e876ffa2-8450-46a2-826c-67f35a60b259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Object\Fish">
+      <UniqueIdentifier>{4a2efbe4-7f2c-4b88-8529-b17bad74b393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Object\Fish\Manager">
+      <UniqueIdentifier>{d5331d5e-4f27-4f32-8f37-61a58825061a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Object\Fish\NormalObject">
+      <UniqueIdentifier>{421a6365-5ce3-42e6-b460-2c865dcf8395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Object\Fish\DamageObject">
+      <UniqueIdentifier>{4ed465df-a9e9-4472-9ba7-63a452667c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Object\Fish\DamageObject\Base">
+      <UniqueIdentifier>{17af9374-12df-4b1e-9f36-ef9eb1c0f5ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Object\Fish\DamageObject\Fish">
+      <UniqueIdentifier>{11efa768-4c4e-4fca-aeb5-e9cac515714d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Object\SunLine">
+      <UniqueIdentifier>{6ef5be80-cd55-4e25-b68d-612902812677}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Object\SunLine\Manager">
+      <UniqueIdentifier>{058e19ba-7486-406d-9386-4ea288a21954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Object\Object">
+      <UniqueIdentifier>{35930b98-f500-469c-95a2-b91aa48df8be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Sequence">
+      <UniqueIdentifier>{ce6c83c1-164a-4287-ac95-3b980aad990d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Sequence\Manager">
+      <UniqueIdentifier>{9dce9577-26b0-4d57-8231-893c934bf995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Sequence\Title">
+      <UniqueIdentifier>{6e319a07-3f33-409d-a0a9-3cc191da1c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Sequence\GameOver">
+      <UniqueIdentifier>{0d8f0330-65ac-4b5f-8daf-76322f5f39ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Sequence\Clear">
+      <UniqueIdentifier>{141ee96e-9467-49ca-97c8-1f67b408a19a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Sequence\Base">
+      <UniqueIdentifier>{ae01dde8-46f8-4c5c-84e7-bbc7a2bcdd72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Sequence\StageSelect">
+      <UniqueIdentifier>{0d5a5d33-4f53-4cf7-b3df-089f77848f15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Sequence\Game">
+      <UniqueIdentifier>{3f7e8464-4693-4bcd-a78d-475eec60f427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Bubble">
+      <UniqueIdentifier>{45bf2132-d46d-458b-a956-0175c72b5d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Bubble\Manager">
+      <UniqueIdentifier>{dec820ac-7a19-40c9-8174-6cd4a628e3aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Bubble\Spray">
+      <UniqueIdentifier>{bc7122b4-ec2e-43a4-9616-c17ef2bd56a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Bubble\Bubble">
+      <UniqueIdentifier>{9fa12f5e-033e-4fa0-a739-57b1e5585758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\UI">
+      <UniqueIdentifier>{83469664-0a66-4e57-8ba2-d29f0c194119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Boss">
+      <UniqueIdentifier>{0dd7bb64-c388-45f2-9c9d-660bd58da222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Boss\Base">
+      <UniqueIdentifier>{fa041954-a0c9-425e-b50f-c7b3efdd5fe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Boss\HardBorder">
+      <UniqueIdentifier>{83533069-9995-4754-8cd9-145e86418fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Parts">
+      <UniqueIdentifier>{d5c68bfd-b212-4343-b30b-7eb9523bf768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Parts\Screw">
+      <UniqueIdentifier>{ce55443e-f51f-4feb-a177-1c9b61598997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Parts\Fin">
+      <UniqueIdentifier>{a3d7285e-19ff-4b4d-b02a-8db6144b7fec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Wall">
+      <UniqueIdentifier>{7acf1104-a16f-46ab-b743-e19412136b52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Ripple">
+      <UniqueIdentifier>{bbb20ea8-4163-4474-aae5-d1f6f01bde2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Ripple\Manager">
+      <UniqueIdentifier>{e9e5bb29-1ecc-46d0-ab4a-6022e27aaf3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\Sea">
+      <UniqueIdentifier>{18877fb2-a6dc-40fd-a499-38c5b912d9d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\SandSpray">
+      <UniqueIdentifier>{5d781ae8-1514-4df4-bfb7-d3a4f5ac1b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Game\WaveMap">
+      <UniqueIdentifier>{71bf1269-d318-4baa-a422-a4b33a17fe92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System">
+      <UniqueIdentifier>{2fe17e28-57f9-43b6-b7fd-42da5812d527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\D3D">
+      <UniqueIdentifier>{a55bf095-dd22-4ad8-9046-432067edeffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\D3D\Graphics">
+      <UniqueIdentifier>{3f943625-6994-4b07-b71d-2c06455655cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Collision">
+      <UniqueIdentifier>{2ce8d5d6-c9b6-4c59-81fb-0abfd35a11a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Stdafx">
+      <UniqueIdentifier>{0a335f5b-4cc3-4fab-93b0-9f3ee4d28858}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Input">
+      <UniqueIdentifier>{862e1f64-1425-4b33-ae4d-20a3dc1b2a88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Wrapping">
+      <UniqueIdentifier>{06e99bbf-a790-488b-9e02-aab4958f4522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Wrapping\Vector">
+      <UniqueIdentifier>{edf22511-801a-48dd-ab07-d01f7f0b86c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Wrapping\Matrix">
+      <UniqueIdentifier>{e1a2ad99-95fa-40bd-935f-086984e3080c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Wrapping\Texture">
+      <UniqueIdentifier>{265e2518-0310-46c1-954e-6172366f5fe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Wrapping\Camera">
+      <UniqueIdentifier>{f269dc4c-f3f9-4750-a492-8d8903e13014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Wrapping\Board">
+      <UniqueIdentifier>{d3117826-d079-4dcc-a51f-c67e7d090630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Wrapping\Projection">
+      <UniqueIdentifier>{a8c6f7b8-8221-4112-aa81-913f858e5471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Wrapping\Font">
+      <UniqueIdentifier>{4f9c5709-54e1-429c-a5c4-e7a5783bc6ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Wrapping\Sprite">
+      <UniqueIdentifier>{186b8a13-b5b9-4e6f-8fa3-bb563ca13508}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Wrapping\Line">
+      <UniqueIdentifier>{299d67bb-c22b-44af-b20e-878cc7d19be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Wrapping\XFile">
+      <UniqueIdentifier>{1cffda01-04d9-4598-b493-d73a0bbdd0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Wrapping\XFile\Manager">
+      <UniqueIdentifier>{53b149fa-dd7a-4fa7-b967-2b95272b01c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Wrapping\XFile\Wrap">
+      <UniqueIdentifier>{363946b1-682f-450f-9995-02d44bd3f089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Wrapping\TexManager">
+      <UniqueIdentifier>{75d2a16c-102c-4b58-9c7c-d952c949a145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Wrapping\PointSprite">
+      <UniqueIdentifier>{943b5635-bf1d-43b0-826f-8971b23671a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Wrapping\Shader">
+      <UniqueIdentifier>{ee5997e8-ab73-4e6a-b57a-12dc2d406443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Wrapping\Shader\Wrap">
+      <UniqueIdentifier>{e20c37d4-4af4-40e2-8542-003f4ec787a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Wrapping\Shader\Manager">
+      <UniqueIdentifier>{3b4ebf5a-30ef-4f3c-a536-46f5531807a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Wrapping\Synchro">
+      <UniqueIdentifier>{dc1cf2e3-8146-475f-89fc-134717083d98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Wrapping\MeshTextureManager">
+      <UniqueIdentifier>{d3755d03-c7f7-43e6-8144-e456fd827db9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Wrapping\BoradAnime">
+      <UniqueIdentifier>{dc8b70ab-f08b-4455-9bab-ac40ba62ca17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Sound">
+      <UniqueIdentifier>{8ec5cf32-58bd-434f-ad3f-ab7a16defef1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Sound\Manager">
+      <UniqueIdentifier>{34c3cccf-5a90-489e-9833-356512d30dd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Sound\WaveRead">
+      <UniqueIdentifier>{6c48ed11-8c7c-4a30-b49b-efa87beff7e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\FPS">
+      <UniqueIdentifier>{3d08e698-6705-45db-a8ae-48a24c0350d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Utility">
+      <UniqueIdentifier>{b5b38f11-6091-4aff-bab2-8b6b022a78f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System\Thread">
+      <UniqueIdentifier>{60b663a8-8330-48a6-a59b-4a8788e49c4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Main">
+      <UniqueIdentifier>{423e6d28-2bef-4b06-ae1b-b38be9cec46d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="エフェクトファイル">
+      <UniqueIdentifier>{3fec3769-9a50-44bd-be6b-ce7b97314768}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\StrongDolphin.cpp">
+      <Filter>ソース ファイル\Game\Chara</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EnemyBase.cpp">
+      <Filter>ソース ファイル\Game\Enemy\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NormalEnemy.cpp">
+      <Filter>ソース ファイル\Game\Enemy\Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EnemyManager.cpp">
+      <Filter>ソース ファイル\Game\Enemy\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ShotEnemy.cpp">
+      <Filter>ソース ファイル\Game\Enemy\ShotEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RushEnemy.cpp">
+      <Filter>ソース ファイル\Game\Enemy\Rush</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BubbleBreaker.cpp">
+      <Filter>ソース ファイル\Game\Enemy\BubbleBreaker</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ShotBase.cpp">
+      <Filter>ソース ファイル\Game\Shot\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NormalShot.cpp">
+      <Filter>ソース ファイル\Game\Shot\Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ShotManager.cpp">
+      <Filter>ソース ファイル\Game\Shot\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PowerShot.cpp">
+      <Filter>ソース ファイル\Game\Shot\Power</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BubbleRing.cpp">
+      <Filter>ソース ファイル\Game\Shot\BubbleRing</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BigShot.cpp">
+      <Filter>ソース ファイル\Game\Shot\Big</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Plankton.cpp">
+      <Filter>ソース ファイル\Game\Object\Plankton</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PlanktonManager.cpp">
+      <Filter>ソース ファイル\Game\Object\Plankton\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StoneManager.cpp">
+      <Filter>ソース ファイル\Game\Object\Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FishManager.cpp">
+      <Filter>ソース ファイル\Game\Object\Fish\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ObjectFish.cpp">
+      <Filter>ソース ファイル\Game\Object\Fish\NormalObject</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DamageObjectBase.cpp">
+      <Filter>ソース ファイル\Game\Object\Fish\DamageObject\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DamageFish.cpp">
+      <Filter>ソース ファイル\Game\Object\Fish\DamageObject\Fish</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SunLine.cpp">
+      <Filter>ソース ファイル\Game\Object\SunLine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SunLineManager.cpp">
+      <Filter>ソース ファイル\Game\Object\SunLine\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\NoneObjectManager.cpp">
+      <Filter>ソース ファイル\Game\Object\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DOFText.cpp">
+      <Filter>ソース ファイル\Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TestBump.cpp">
+      <Filter>ソース ファイル\Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TestCaustic.cpp">
+      <Filter>ソース ファイル\Game\Sequence</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SequenceManager.cpp">
+      <Filter>ソース ファイル\Game\Sequence\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Title.cpp">
+      <Filter>ソース ファイル\Game\Sequence\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameOver.cpp">
+      <Filter>ソース ファイル\Game\Sequence\GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Clear.cpp">
+      <Filter>ソース ファイル\Game\Sequence\Clear</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StageSelect.cpp">
+      <Filter>ソース ファイル\Game\Sequence\StageSelect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameMain.cpp">
+      <Filter>ソース ファイル\Game\Sequence\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BubbleManager.cpp">
+      <Filter>ソース ファイル\Game\Bubble\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WaterSpray.cpp">
+      <Filter>ソース ファイル\Game\Bubble\Spray</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Bubble.cpp">
+      <Filter>ソース ファイル\Game\Bubble\Bubble</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UI.cpp">
+      <Filter>ソース ファイル\Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BossBase.cpp">
+      <Filter>ソース ファイル\Game\Boss\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HardBorder.cpp">
+      <Filter>ソース ファイル\Game\Boss\HardBorder</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Screw.cpp">
+      <Filter>ソース ファイル\Game\Parts\Screw</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FinTail.cpp">
+      <Filter>ソース ファイル\Game\Parts\Fin</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LimitWalls.cpp">
+      <Filter>ソース ファイル\Game\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ripple.cpp">
+      <Filter>ソース ファイル\Game\Ripple</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RippleManager.cpp">
+      <Filter>ソース ファイル\Game\Ripple\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SurfaceSea.cpp">
+      <Filter>ソース ファイル\Game\Sea</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SandSpray.cpp">
+      <Filter>ソース ファイル\Game\SandSpray</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WaveMapManager.cpp">
+      <Filter>ソース ファイル\Game\WaveMap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DirectGraphics.cpp">
+      <Filter>ソース ファイル\System\D3D\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stdafx.cpp">
+      <Filter>ソース ファイル\System\Stdafx</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Input.cpp">
+      <Filter>ソース ファイル\System\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vector.cpp">
+      <Filter>ソース ファイル\System\Wrapping\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Matrix.cpp">
+      <Filter>ソース ファイル\System\Wrapping\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Textures.cpp">
+      <Filter>ソース ファイル\System\Wrapping\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Camera.cpp">
+      <Filter>ソース ファイル\System\Wrapping\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Board.cpp">
+      <Filter>ソース ファイル\System\Wrapping\Board</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Proj.cpp">
+      <Filter>ソース ファイル\System\Wrapping\Projection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DebugFont.cpp">
+      <Filter>ソース ファイル\System\Wrapping\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sprite.cpp">
+      <Filter>ソース ファイル\System\Wrapping\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XfileManager.cpp">
+      <Filter>ソース ファイル\System\Wrapping\XFile\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Xfile.cpp">
+      <Filter>ソース ファイル\System\Wrapping\XFile\Wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TexManager.cpp">
+      <Filter>ソース ファイル\System\Wrapping\TexManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PointSpriteManager.cpp">
+      <Filter>ソース ファイル\System\Wrapping\PointSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Effect.cpp">
+      <Filter>ソース ファイル\System\Wrapping\Shader\Wrap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ShaderManager.cpp">
+      <Filter>ソース ファイル\System\Wrapping\Shader\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Syncro.cpp">
+      <Filter>ソース ファイル\System\Wrapping\Synchro</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MeshTexManager.cpp">
+      <Filter>ソース ファイル\System\Wrapping\MeshTextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GraphicAnime.cpp">
+      <Filter>ソース ファイル\System\Wrapping\BoradAnime</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SoundManager.cpp">
+      <Filter>ソース ファイル\System\Sound\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wavread.cpp">
+      <Filter>ソース ファイル\System\Sound\WaveRead</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FPS.cpp">
+      <Filter>ソース ファイル\System\FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utility.cpp">
+      <Filter>ソース ファイル\System\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Loading.cpp">
+      <Filter>ソース ファイル\System\Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Main.cpp">
+      <Filter>ソース ファイル\Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\StrongDolphin.h">
+      <Filter>ソース ファイル\Game\Chara</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EnemyBase.h">
+      <Filter>ソース ファイル\Game\Enemy\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NormalEnemy.h">
+      <Filter>ソース ファイル\Game\Enemy\Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EnemyManager.h">
+      <Filter>ソース ファイル\Game\Enemy\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ShotEnemy.h">
+      <Filter>ソース ファイル\Game\Enemy\ShotEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RushEnemy.h">
+      <Filter>ソース ファイル\Game\Enemy\Rush</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BubbleBreaker.h">
+      <Filter>ソース ファイル\Game\Enemy\BubbleBreaker</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ShotBase.h">
+      <Filter>ソース ファイル\Game\Shot\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NormalShot.h">
+      <Filter>ソース ファイル\Game\Shot\Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ShotManager.h">
+      <Filter>ソース ファイル\Game\Shot\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PowerShot.h">
+      <Filter>ソース ファイル\Game\Shot\Power</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BubbleRing.h">
+      <Filter>ソース ファイル\Game\Shot\BubbleRing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BigShot.h">
+      <Filter>ソース ファイル\Game\Shot\Big</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Plankton.h">
+      <Filter>ソース ファイル\Game\Object\Plankton</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PlanktonManager.h">
+      <Filter>ソース ファイル\Game\Object\Plankton\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StoneManager.h">
+      <Filter>ソース ファイル\Game\Object\Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FishManager.h">
+      <Filter>ソース ファイル\Game\Object\Fish\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ObjectFish.h">
+      <Filter>ソース ファイル\Game\Object\Fish\NormalObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DamageObjectBase.h">
+      <Filter>ソース ファイル\Game\Object\Fish\DamageObject\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DamageFish.h">
+      <Filter>ソース ファイル\Game\Object\Fish\DamageObject\Fish</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SunLine.h">
+      <Filter>ソース ファイル\Game\Object\SunLine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SunLineManager.h">
+      <Filter>ソース ファイル\Game\Object\SunLine\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NoneObjectManager.h">
+      <Filter>ソース ファイル\Game\Object\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DOFText.h">
+      <Filter>ソース ファイル\Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TestBump.h">
+      <Filter>ソース ファイル\Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TestCaustic.h">
+      <Filter>ソース ファイル\Game\Sequence</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SequenceManager.h">
+      <Filter>ソース ファイル\Game\Sequence\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Title.h">
+      <Filter>ソース ファイル\Game\Sequence\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameOver.h">
+      <Filter>ソース ファイル\Game\Sequence\GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Clear.h">
+      <Filter>ソース ファイル\Game\Sequence\Clear</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SequenceBase.h">
+      <Filter>ソース ファイル\Game\Sequence\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StageSelect.h">
+      <Filter>ソース ファイル\Game\Sequence\StageSelect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameMain.h">
+      <Filter>ソース ファイル\Game\Sequence\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BubbleManager.h">
+      <Filter>ソース ファイル\Game\Bubble\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WaterSpray.h">
+      <Filter>ソース ファイル\Game\Bubble\Spray</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Bubble.h">
+      <Filter>ソース ファイル\Game\Bubble\Bubble</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UI.h">
+      <Filter>ソース ファイル\Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BossBase.h">
+      <Filter>ソース ファイル\Game\Boss\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HardBorder.h">
+      <Filter>ソース ファイル\Game\Boss\HardBorder</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Screw.h">
+      <Filter>ソース ファイル\Game\Parts\Screw</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FinTail.h">
+      <Filter>ソース ファイル\Game\Parts\Fin</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LimitWalls.h">
+      <Filter>ソース ファイル\Game\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ripple.h">
+      <Filter>ソース ファイル\Game\Ripple</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RippleManager.h">
+      <Filter>ソース ファイル\Game\Ripple\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SurfaceSea.h">
+      <Filter>ソース ファイル\Game\Sea</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SandSpray.h">
+      <Filter>ソース ファイル\Game\SandSpray</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WaveMapManager.h">
+      <Filter>ソース ファイル\Game\WaveMap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DirectGraphics.h">
+      <Filter>ソース ファイル\System\D3D\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DoubleDispatch.h">
+      <Filter>ソース ファイル\System\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stdafx.h">
+      <Filter>ソース ファイル\System\Stdafx</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Input.h">
+      <Filter>ソース ファイル\System\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Vector.h">
+      <Filter>ソース ファイル\System\Wrapping\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Matrix.h">
+      <Filter>ソース ファイル\System\Wrapping\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Textures.h">
+      <Filter>ソース ファイル\System\Wrapping\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera.h">
+      <Filter>ソース ファイル\System\Wrapping\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Board.h">
+      <Filter>ソース ファイル\System\Wrapping\Board</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Proj.h">
+      <Filter>ソース ファイル\System\Wrapping\Projection</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DebugFont.h">
+      <Filter>ソース ファイル\System\Wrapping\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sprite.h">
+      <Filter>ソース ファイル\System\Wrapping\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Line.h">
+      <Filter>ソース ファイル\System\Wrapping\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XfileManager.h">
+      <Filter>ソース ファイル\System\Wrapping\XFile\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Xfile.h">
+      <Filter>ソース ファイル\System\Wrapping\XFile\Wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TexManager.h">
+      <Filter>ソース ファイル\System\Wrapping\TexManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PointSpriteManager.h">
+      <Filter>ソース ファイル\System\Wrapping\PointSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Effect.h">
+      <Filter>ソース ファイル\System\Wrapping\Shader\Wrap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ShaderManager.h">
+      <Filter>ソース ファイル\System\Wrapping\Shader\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Syncro.h">
+      <Filter>ソース ファイル\System\Wrapping\Synchro</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MeshTexManager.h">
+      <Filter>ソース ファイル\System\Wrapping\MeshTextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GraphicAnime.h">
+      <Filter>ソース ファイル\System\Wrapping\BoradAnime</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SoundManager.h">
+      <Filter>ソース ファイル\System\Sound\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wavread.h">
+      <Filter>ソース ファイル\System\Sound\WaveRead</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FPS.h">
+      <Filter>ソース ファイル\System\FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utility.h">
+      <Filter>ソース ファイル\System\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Loading.h">
+      <Filter>ソース ファイル\System\Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Main.h">
+      <Filter>ソース ファイル\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Using.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="3DGameProject.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Texture\Rogo.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram11.cd" />
+  </ItemGroup>
+</Project>

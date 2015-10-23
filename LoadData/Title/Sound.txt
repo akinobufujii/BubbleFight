@@ -1,0 +1,4 @@
+Sound/TitleBGM.wav
+Sound/Choos.wav
+Sound/Select.wav
+Sound/StageSelect.wav

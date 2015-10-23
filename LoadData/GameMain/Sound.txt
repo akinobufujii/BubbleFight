@@ -1,0 +1,12 @@
+Sound/BubbleRing.wav
+Sound/charge.wav
+Sound/ChargeMax.wav
+Sound/Damage.wav
+Sound/Move.wav
+Sound/GameBGM.wav
+Sound/JumpOut.wav
+Sound/JumpIn.wav
+Sound/Evasion.wav
+Sound/BossBreak.wav
+Sound/Break.wav
+Sound/BossEnter.wav

@@ -1,0 +1,15 @@
+4
+0
+3
+
+0.0	0.0	0.0
+BigFishBass0.x
+
+0.0	0.0	-0.683
+BigFishBass1.x
+
+0.0	0.0	-1.283
+BigFishBass2.x
+
+0.0	0.0	-1.083
+BigFishBass3.x

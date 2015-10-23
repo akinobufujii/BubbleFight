@@ -1,0 +1,66 @@
+#ifndef __AKI_BUCKSHOT_H__
+#define __AKI_BUCKSHOT_H__
+
+namespace Shot
+{
+	//////////////////////////////////////////////////
+	// 散弾クラス(実際は普通の弾派生)
+	//////////////////////////////////////////////////
+	class CBuck : public CBase
+	{
+	public:	// 外部公開
+
+		//////////////////////////////////////////////////
+		// 定数
+		//////////////////////////////////////////////////
+		CONSTANT BYTE	BUCKMAX_RAND;		// ぶれる係数
+		CONSTANT LPSTR	SHOT_MESH_PASS;		// 弾のメッシュ
+		CONSTANT float	SPEED;				// 弾の速さ
+		CONSTANT short	ERASE_TIME;			// 消えるときの時間
+		CONSTANT float	BUBBLE_SPEED_MAX;	// 泡の上への最大移動
+
+		//////////////////////////////////////////////////
+		// メソッド
+		//////////////////////////////////////////////////
+
+		// コンストラクタ
+		CBuck( const D3DXMATRIX* mat );
+
+		// デストラクタ
+		~CBuck();
+
+		//////////////////////////////////////////////////
+		//	・関数名	Update
+		//	・説明		更新を行う
+		//	・引数		なし
+		//	・戻り値	なし
+		//////////////////////////////////////////////////
+		void Update();
+
+		//////////////////////////////////////////////////
+		//	・関数名	Draw
+		//	・説明		描画を行う
+		//	・引数		
+		//		- lpDevice	デバイス
+		//	・戻り値	なし
+		//////////////////////////////////////////////////
+		void Draw( const LPDIRECT3DDEVICE9 lpdevice );
+
+		// 情報を送りつける
+		void Dispatch( IDoubleDispatch* object );
+
+		// 敵に対する行動
+		void Action( Enemy::CBase& object );
+
+	private:	// 非公開
+
+		//////////////////////////////
+		// フィールド
+		//////////////////////////////
+		DWORD	m_StartTime;		// 作られた時の時間
+		float	m_BubbleSpeed;		// 泡の速さ
+	};
+
+}
+
+#endif // __AKI_BUCKSHOT_H__

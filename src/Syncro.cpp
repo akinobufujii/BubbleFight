@@ -1,0 +1,28 @@
+//////////////////////////////
+// インクルード
+//////////////////////////////
+#include "Syncro.h"
+
+//////////////////////////////
+// 静的メンバ実体化
+//////////////////////////////
+CSSyncro* CSSyncro::m_lpInst	= NULL;
+
+//////////////////////////////
+// 実装
+//////////////////////////////
+
+// コンストラクタ
+CSSyncro::CSSyncro()
+{
+	// 初期化
+	InitializeCriticalSection( &m_Section );
+}
+
+
+// デストラクタ
+CSSyncro::~CSSyncro()
+{
+	// 解放
+	DeleteCriticalSection( &m_Section );
+}
